@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EL RINCON DEL AREQUIPE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <h1>EL RINCON DEL AREQUIPE</h1>
+        <p>Los mejores sabores de nuestra tierra</p>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos</h2>
+        <p>Explora la variedad de dulces tradicionales colombianos. Cada bocado es un viaje por nuestra cultura.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <div class="productos">
+            <article>
+                <img src="imagenes/arequipe.jpg" alt="Arequipe">
+                <h3>Arequipe</h3>
+                <p>Un delicioso dulce de leche que encanta a todos.</p>
+            </article>
+            <article>
+                <img src="imagenes/bocadillo.jpg" alt="Bocadillo Veleño">
+                <h3>Bocadillo Veleño</h3>
+                <p>El sabor dulce del guayabo en una presentación única.</p>
+            </article>
+            <article>
+                <img src="imagenes/cocadas.jpg" alt="Cocadas">
+                <h3>Cocadas</h3>
+                <p>Dulces de coco, perfectos para compartir.</p>
+            </article>
+        </div>
+    </section>
+
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Somos una empresa dedicada a llevar los sabores tradicionales de Colombia a cada rincón del mundo. Creemos en la riqueza de nuestra cultura y queremos compartirla contigo.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Dulces de Colombia. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
